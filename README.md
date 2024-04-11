@@ -3,7 +3,10 @@
 # Index
 
 [Getting Started](#getting-started)
+
 [Dependencies Used](#dependencies-used)
+
+[Created Database](#create-database)
 
 # Getting started
 
@@ -105,6 +108,26 @@ Cross-Origin Resource Sharing: A mechanism that allows restricted resources on a
 ```bash
 npm install cors
 ```
+
+# Create database
+
+In your terminal:
+
+```bash
+mysql -u <user> -p
+```
+```bash
+CREATE DATABASE <name_database>;
+```
+
+```bash
+USE <name_database>;
+```
+
+Opening and connecting to TablePlus
+
+
+
 
 
 

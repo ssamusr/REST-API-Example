@@ -8,6 +8,8 @@
 
 [Created Database](#create-database)
 
+[Connect and synchronise the database](#connect-and-synchronise-the-database)
+
 # Getting started
 
 1. Clone or fork the repository:
@@ -125,6 +127,16 @@ USE <name_database>;
 ```
 
 Opening and connecting to TablePlus
+
+# Connect and synchronise the database
+
+1. Create the db folder
+2. With sequelize, we connect the database. 
+
+    [Sequelize Connecting to a Database](https://sequelize.org/docs/v6/getting-started/#connecting-to-a-database)
+
+3. Import the functions into index.js
+
 
 
 

@@ -141,6 +141,10 @@ Opening and connecting to TablePlus
 
 # Define the models
 
+NOTE: In this repository we simulate this database: 
+
+<img src="https://github.com/ssamusr/REST-API-Example/assets/110935809/6007fb2b-a339-4e5e-9e73-e75909ea3eeb" />
+
 1. In the folder api/models, we define the models
 
     Example of a User Model

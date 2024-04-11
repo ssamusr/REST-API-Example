@@ -10,6 +10,8 @@
 
 [Connect and synchronise the database](#connect-and-synchronise-the-database)
 
+[Define the models](#define-the-models)
+
 # Getting started
 
 1. Clone or fork the repository:
@@ -137,7 +139,29 @@ Opening and connecting to TablePlus
 
 3. Import the functions into index.js
 
+# Define the models
 
+1. In the folder api/models, we define the models
+
+    Example of a User Model
+
+```bash
+const { DataTypes } = require('sequelize')
+const { connection } = require('../../databse/index')
+
+
+const User = connection.define('user', {
+  name: {
+    type: DataTypes.STRING
+  }
+},
+  {
+    timestamps: false
+  })
+
+
+module.exports = User
+```
 
 
 
